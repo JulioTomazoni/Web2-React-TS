@@ -2,6 +2,8 @@ import { Title } from './Title';
 
 export const Components = () => {
   return(
-  <Title>Seja Bem-Vindo</Title>
+    <div>
+      <Title>Seja Bem-Vindo</Title>
+    </div>  
   )
 };
