@@ -2,7 +2,30 @@
   "professor": [
     {
       "id": 1,
-      "nome": "Rodrigo"
+      "nome": "Rodrigo",
+      "materia": "Português"
     }
+  ],
+  "aluno": [
+    {
+      "id": 1,
+      "nome": "Julio",
+      "periodo": "Manhã"
+    }
+  ],
+  "materias": [
+  {
+    "id": 1,
+    "materia": "Português" 
+  },
+  {
+    "id": 2,
+    "materia": "Matemática"
+  },
+  {
+    "id": 3,
+    "materia": "Biologia"
+  }
   ]
+  
 }
