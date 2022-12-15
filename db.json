@@ -2,10 +2,7 @@
   "professor": [
     {
       "id": 1,
-      "nome": "Rodrigo",
-      "turma": [
-      
-      ]
+      "nome": "Rodrigo"
     }
   ]
 }
