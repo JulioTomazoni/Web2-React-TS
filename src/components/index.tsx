@@ -1,7 +1,9 @@
 export const Components = () => {
   return(
-    <div>
-      
+    <div className="Home">
+      <div>
+        Seja Bem-Vindo
+      </div>
     </div>  
   )
 };

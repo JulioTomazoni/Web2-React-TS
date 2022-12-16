@@ -1,15 +1,15 @@
 import { useState, useEffect } from 'react';
 import '../../App.css';
 
-interface IAluno {
+interface IProfessor {
   id: number,
   nome: string,
-  periodo: string,
+  materia: string,
 }
 
-export const Aluno = () => {
+export const GetAllProfessor = () => {
   const [data, getData] = useState([]);
-  const URL = "http://localhost:3000/aluno";
+  const URL = "http://localhost:3000/professor";
  
   useEffect(() => {
     fetchData();
@@ -31,13 +31,13 @@ export const Aluno = () => {
         <tr>
           <th>Código</th>
           <th>Nome</th>
-          <th>Período</th>
+          <th>Matéria</th>
         </tr>
-        {data.map((alunos: IAluno, i) => (
+        {data.map((professores: IProfessor, i) => (
           <tr key={i}>
-            <td>{alunos.id}</td>
-            <td>{alunos.nome}</td>
-            <td>{alunos.periodo}</td>
+            <td>{professores.id}</td>
+            <td>{professores.nome}</td>
+            <td>{professores.materia}</td>
           </tr>
         ))}
       </table>

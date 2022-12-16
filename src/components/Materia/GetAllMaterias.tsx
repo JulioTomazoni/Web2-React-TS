@@ -6,7 +6,7 @@ interface IMaterias {
   materia: string,
 }
 
-export const Materia = () => {
+export const GetAllMaterias = () => {
   const [data, getData] = useState([]);
   const URL = "http://localhost:3000/materias";
  

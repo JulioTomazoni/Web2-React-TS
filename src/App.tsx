@@ -13,11 +13,7 @@ function App() {
           <a><Link to='/professor'>Professores</Link></a>
           <a><Link to='/materias'>Materias</Link></a>
         </nav>
-      <table> 
-        <tr>           
-          <Rotas/>
-        </tr>
-      </table>      
+          <Rotas/>     
       </div>           
   );
 }
