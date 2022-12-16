@@ -1,19 +1,28 @@
-div {
-  margin: 0 auto;
-  width: 50%;
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
 }
 
 table {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
-  width: 100%;
+  width: 20rem;
+  margin: auto;
 }
+
+td, th {
+  padding: .7em;
+  margin: 0;
+  /*border: 1px solid #ccc;*/
+  text-align: center;
+}
+
 table td, table th {
   border: 1px solid #ddd;
   padding: 8px;
 }
 table tr:nth-child(even){background-color: #f2f2f2;}
-table tr:hover {background-color: #ddd;}
 table th {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -22,21 +31,26 @@ table th {
   color: white;
 }
 
-.botao{
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin:  10px 5px 5px;
-    cursor: pointer;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
+.navMenu {
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
 }
-.botao:hover{
-  
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+.navMenu a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navMenu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navMenu a.active {
+  color: white;
 }

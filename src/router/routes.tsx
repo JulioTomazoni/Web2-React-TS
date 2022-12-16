@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes, Link } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 import {Components} from "../components/index"
 import {Aluno} from "../components/Aluno/Aluno";
@@ -12,6 +12,7 @@ export const Rotas = () => {
        <Routes>
         <Route path='/' element={<Components/>} />
         <Route path='/alunos' element={<Aluno/>} />
+        <Route path='/professor' element={<Professor/>} />
         <Route path='/materias' element={<Materia/>}/>
        </Routes>
    )
